@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-4 text-right">
                   <a href="profile" class="btn btn-sm btn-primary">Cancel</a>
-                </div>               
+                </div>
               </div>
             </div>
             <div class="card-body">
@@ -32,15 +32,15 @@
                 <div class="pl-lg-4">
                   <div class="row">
                     <div class="col-lg-6">
-                      <div class="form-group focused">
+                    <div class="form-group focused">
                         <label class="form-control-label" for="input-username">Name</label>
-                        <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Name" value="Lucky">
+                        <input type="text" id="input-name" class="form-control form-control-alternative" placeholder="Name" value="Lucky">
                       </div>
                     </div>
                     <div class="col-lg-6">
                       <div class="form-group">
-                        <label class="form-control-label" for="input-email">Username</label>
-                        <input type="email" id="input-email" class="form-control form-control-alternative" placeholder="Username" value="11111">
+                        <label class="form-control-label" for="input-email">Massage</label>
+                        <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Username" value="11111">
                       </div>
                     </div>
                   </div>
@@ -48,7 +48,7 @@
                     <div class="col-lg-6">
                       <div class="form-group focused">
                         <label class="form-control-label" for="input-first-name">Email</label>
-                        <input type="text" id="input-first-name" class="form-control form-control-alternative" placeholder="jesse@example.com">
+                        <input type="email" id="input-email" class="form-control form-control-alternative" placeholder="jesse@example.com">
                       </div>
                     </div>
                   </div>
@@ -59,6 +59,6 @@
               </form>
             </div>
           </div>
-        </div> 
+        </div>
 </section>
 @endsection
