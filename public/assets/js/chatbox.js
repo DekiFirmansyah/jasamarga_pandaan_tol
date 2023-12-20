@@ -97,18 +97,18 @@
 //     })
 
 //   })
-function sendMessage() {
-  var messageInput = document.getElementById("message-input");
-  var message = messageInput.value;
+// function sendMessage() {
+//   var messageInput = document.getElementById("message-input");
+//   var message = messageInput.value;
 
-  if (message) {
-      var chatOutput = document.getElementById("chat-output");
-      var messageElement = document.createElement("div");
-      messageElement.className = "message";
-      messageElement.textContent = message;
+//   if (message) {
+//       var chatOutput = document.getElementById("chat-output");
+//       var messageElement = document.createElement("div");
+//       messageElement.className = "message";
+//       messageElement.textContent = message;
 
-      chatOutput.appendChild(messageElement);
-      messageInput.value = "";
-      chatOutput.scrollTop = chatOutput.scrollHeight;
-  }
-}
+//       chatOutput.appendChild(messageElement);
+//       messageInput.value = "";
+//       chatOutput.scrollTop = chatOutput.scrollHeight;
+//   }
+// }
